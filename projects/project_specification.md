@@ -21,14 +21,15 @@ Conclusions: Learnings gained
 
 Evaluation: Open feedback and suggestions for course improvements
 
-#### Project choice checklist:
+### Project choice checklist:
 Each project should include:
 - A clear business case: What need does it cover? Who is supposed to use it? What is the expected value?
 - A data source: At least one source of external data (can be document, online resources, datasets, books...)
 - An analytic pipeline: A way to extract value from the data by performing additional analysis and visualization
 - A deliverable: A way to expose the analytics / value, be it through a dashboard, a simple UI or an Excel file.
 
-#### Example
+### Example
+#### News article analyzer
 ##### Purpose
 The purpose of the tool is to provide a simple way to get basic analytics from news articles, at article level and at category level.
 
