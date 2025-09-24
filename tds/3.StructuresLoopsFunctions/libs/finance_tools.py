@@ -1,7 +1,6 @@
 from tqdm.auto import tqdm
 import numpy as np
 
-
 def calculate_percentage_return(start_price, end_price):
     """Calculates the percentage return given a start and end price."""
     if start_price == 0:
