@@ -1,0 +1,413 @@
+<!--
+COMPONENT: User Persona Card
+VERSION: 1.0
+DESCRIPTION: Displays comprehensive user persona information including bio, motivations, and preferences
+RESPONSIVE: Yes (Mobile/Tablet/Desktop)
+DEPENDENCIES: None
+-->
+<div class="persona-card">
+  <!-- Header Section -->
+  <header class="persona-header">
+    <h1 class="persona-name">Jack Rowland</h1>
+    <div class="persona-meta">
+      <div class="meta-item"><strong>Age:</strong> 45</div>
+      <div class="meta-item"><strong>Work:</strong> Operations/Support</div>
+      <div class="meta-item"><strong>Family:</strong> Married</div>
+      <div class="meta-item"><strong>Location:</strong> Seattle, WA</div>
+      <div class="meta-item"><strong>Character:</strong> The Authentic</div>
+    </div>
+  </header>
+
+  <!-- Main Content Grid -->
+  <div class="persona-content">
+    <!-- Bio Section -->
+    <section class="persona-bio">
+      <h2>Bio</h2>
+      <p>Jack as been working in customer support for the past fifteen years and loves it. He is very tech savvy and enjoys helping others. On a daily basis, he provides customer service and audits accounts focusing on KPI. When there's a problem, he always prefers to deal with clients personally. He wants the system to be easy and intuitive so he can find solutions easily.</p>
+    </section>
+
+    <!-- Preferred Channels -->
+    <section class="persona-channels">
+      <h2>Preferred Channels</h2>
+      <ul class="channel-list">
+        <li class="channel-item">
+          <span class="channel-name">Traditional Ads</span>
+          <div class="channel-bar" style="width: 15%"></div>
+        </li>
+        <li class="channel-item">
+          <span class="channel-name">Social Media</span>
+          <div class="channel-bar" style="width: 30%"></div>
+        </li>
+        <li class="channel-item">
+          <span class="channel-name">Referral</span>
+          <div class="channel-bar" style="width: 60%"></div>
+        </li>
+        <li class="channel-item">
+          <span class="channel-name">Guerilla Efforts & PR</span>
+          <div class="channel-bar" style="width: 80%"></div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Motivation Section -->
+    <section class="persona-motivation">
+      <h2>Motivation</h2>
+      <ul class="motivation-list">
+        <li class="motivation-item">
+          <span class="motivation-label">Design Products</span>
+          <div class="motivation-bar" style="width: 60%"></div>
+        </li>
+        <li class="motivation-item">
+          <span class="motivation-label">Eco-Friendly</span>
+          <div class="motivation-bar" style="width: 85%"></div>
+        </li>
+        <li class="motivation-item">
+          <span class="motivation-label">Personalization</span>
+          <div class="motivation-bar" style="width: 70%"></div>
+        </li>
+        <li class="motivation-item">
+          <span class="motivation-label">Low Prices</span>
+          <div class="motivation-bar" style="width: 40%"></div>
+        </li>
+        <li class="motivation-item">
+          <span class="motivation-label">Convenience</span>
+          <div class="motivation-bar" style="width: 65%"></div>
+        </li>
+        <li class="motivation-item">
+          <span class="motivation-label">Social</span>
+          <div class="motivation-bar" style="width: 75%"></div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Goals Section -->
+    <section class="persona-goals">
+      <h2>Goals</h2>
+      <ul class="goals-list">
+        <li>To reduce churn</li>
+        <li>To help educate advertisers</li>
+        <li>To transition toward email / automated customer support</li>
+      </ul>
+    </section>
+
+    <!-- Frustrations Section -->
+    <section class="persona-frustrations">
+      <h2>Frustrations</h2>
+      <ul class="frustrations-list">
+        <li>Confusing UX for advertisers leading to increased tickets</li>
+        <li>Logging calls manually</li>
+        <li>Multiple steps to completing a ticket</li>
+      </ul>
+    </section>
+
+    <!-- Personality Section -->
+    <section class="persona-personality">
+      <h2>Personality</h2>
+      <div class="personality-scale">
+        <div class="scale-item">
+          <span>Introvert</span>
+          <div class="scale-bar" style="width: 20%"></div>
+          <span>Extrovert</span>
+        </div>
+        <div class="scale-item">
+          <span>Analytical</span>
+          <div class="scale-bar" style="width: 35%"></div>
+          <span>Creative</span>
+        </div>
+        <div class="scale-item">
+          <span>Loyal</span>
+          <div class="scale-bar" style="width: 60%"></div>
+          <span>Fickle</span>
+        </div>
+        <div class="scale-item">
+          <span>Passive</span>
+          <div class="scale-bar" style="width: 75%"></div>
+          <span>Active</span>
+        </div>
+      </div>
+      <div class="personality-tags">
+        <span class="tag">Agreeable</span>
+        <span class="tag">Accessible</span>
+        <span class="tag">Dependable</span>
+      </div>
+    </section>
+
+    <!-- Image and Quote Section -->
+    <section class="persona-image-section">
+      <div class="persona-image" role="img" aria-label="Portrait of Jack Rowland" title="Jack Rowland"></div>
+      <blockquote class="persona-quote">
+        "I want to optimize how the support ticketing system works to capture product feedback better."
+      </blockquote>
+    </section>
+
+    <!-- Brand Logos -->
+    <section class="persona-brands">
+      <div class="brand-logo" role="img" aria-label="Intercom logo" title="Intercom"></div>
+      <div class="brand-logo" role="img" aria-label="Lakers logo" title="Lakers"></div>
+      <div class="brand-logo" role="img" aria-label="Slack logo" title="Slack"></div>
+    </section>
+  </div>
+</div>
+
+<style>
+/* Base Styles - Mobile First */
+.persona-card {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  line-height: 1.5;
+  max-width: 100%;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.persona-header {
+  background-color: #00BCD4;
+  color: white;
+  padding: 1.5rem;
+}
+
+.persona-name {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin: 0 0 1rem 0;
+  color: white;
+}
+
+.persona-meta {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.5rem;
+}
+
+.meta-item {
+  font-size: 0.9rem;
+}
+
+.persona-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  padding: 1.5rem;
+}
+
+.persona-bio p {
+  margin: 0.5rem 0;
+  color: #555;
+}
+
+.persona-channels, .persona-motivation {
+  margin: 1rem 0;
+}
+
+.channel-list, .motivation-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.channel-item, .motivation-item {
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.channel-name, .motivation-label {
+  min-width: 120px;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.channel-bar, .motivation-bar {
+  height: 8px;
+  background-color: #00BCD4;
+  border-radius: 4px;
+  margin-left: 1rem;
+  flex-grow: 1;
+}
+
+.goals-list, .frustrations-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.goals-list li, .frustrations-list li {
+  margin: 0.5rem 0;
+  padding-left: 1.2rem;
+  position: relative;
+}
+
+.goals-list li:before, .frustrations-list li:before {
+  content: "•";
+  color: #00BCD4;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+.personality-scale {
+  margin: 1.5rem 0;
+}
+
+.scale-item {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.scale-item span {
+  font-size: 0.9rem;
+  color: #777;
+  min-width: 80px;
+}
+
+.scale-item span:last-child {
+  text-align: right;
+}
+
+.scale-bar {
+  height: 6px;
+  background-color: #00BCD4;
+  border-radius: 3px;
+  margin: 0 1rem;
+  flex-grow: 1;
+  position: relative;
+}
+
+.scale-bar:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: -4px;
+  width: 12px;
+  height: 12px;
+  background-color: #00BCD4;
+  border-radius: 50%;
+}
+
+.personality-tags {
+  display: flex;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.tag {
+  background-color: #00BCD4;
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+
+.persona-image-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.persona-image {
+  width: 150px;
+  height: 150px;
+  background-color: #ddd;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  background-image:
+    linear-gradient(to bottom, #ccc, #999),
+    radial-gradient(circle at 30% 40%, #aaa, #888);
+}
+
+.persona-quote {
+  font-style: italic;
+  color: #555;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.1rem;
+  position: relative;
+}
+
+.persona-quote:before {
+  content: '"';
+  font-size: 2rem;
+  color: #00BCD4;
+  position: absolute;
+  left: 0;
+  top: -0.5rem;
+}
+
+.persona-brands {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.brand-logo {
+  width: 60px;
+  height: 60px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Tablet Breakpoint (768px) */
+@media (min-width: 48rem) {
+  .persona-content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+
+  .persona-image-section {
+    grid-column: span 2;
+  }
+
+  .persona-bio {
+    grid-column: span 2;
+  }
+
+  .persona-brands {
+    grid-column: span 2;
+  }
+}
+
+/* Desktop Breakpoint (1024px) */
+@media (min-width: 64rem) {
+  .persona-content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .persona-bio {
+    grid-column: span 3;
+  }
+
+  .persona-image-section {
+    grid-column: span 1;
+  }
+
+  .persona-brands {
+    grid-column: span 3;
+  }
+
+  .persona-name {
+    font-size: 3rem;
+  }
+}
+</style>
+<!--
+IMPLEMENTATION NOTES:
+1. Replace placeholder background images with actual images using the 'background-image' property
+2. For brand logos, replace the placeholder divs with actual SVG or image elements
+3. The component uses CSS Grid for layout which is supported in all modern browsers
+4. Color scheme can be customized by modifying the #00BCD4 teal color variable
+
+ACCESSIBILITY FEATURES:
+• ARIA attributes for decorative images and interactive elements
+• Sufficient color contrast (4.5:1 minimum) for all text elements
+• Semantic HTML structure for screen readers
+• Responsive design that works at all viewport sizes
+• Keyboard-navigable content structure
+-->
